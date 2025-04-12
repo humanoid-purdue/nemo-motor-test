@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -rdynamic CMakeFiles/changeID.dir/motor_scripts/changeID.cpp.o -o changeID   -L/home/savvy/cpp_projects/nemo_motor_test/lib  -Wl,-rpath,/home/savvy/cpp_projects/nemo_motor_test/lib -lUnitreeMotorSDK_Linux64 
