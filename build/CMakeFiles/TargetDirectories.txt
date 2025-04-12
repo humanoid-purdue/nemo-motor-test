@@ -1,0 +1,4 @@
+/home/savvy/cpp_projects/nemo_motor_test/build/CMakeFiles/example_goM8010_6_motor.dir
+/home/savvy/cpp_projects/nemo_motor_test/build/CMakeFiles/changeID.dir
+/home/savvy/cpp_projects/nemo_motor_test/build/CMakeFiles/edit_cache.dir
+/home/savvy/cpp_projects/nemo_motor_test/build/CMakeFiles/rebuild_cache.dir

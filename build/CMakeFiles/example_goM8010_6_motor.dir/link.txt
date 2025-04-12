@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -rdynamic CMakeFiles/example_goM8010_6_motor.dir/motor_scripts/example_goM8010_6_motor.cpp.o -o example_goM8010_6_motor   -L/home/savvy/cpp_projects/nemo_motor_test/lib  -Wl,-rpath,/home/savvy/cpp_projects/nemo_motor_test/lib -lUnitreeMotorSDK_Linux64 
