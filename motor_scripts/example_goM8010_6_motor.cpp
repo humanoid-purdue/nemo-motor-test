@@ -14,7 +14,7 @@ int main() {
   {
     cmd.motorType = MotorType::GO_M8010_6;
     data.motorType = MotorType::GO_M8010_6;
-    cmd.mode = queryMotorMode(MotorType::GO_M8010_6,MotorMode::FOC);
+    cmd.mode = queryMotorMode(MotorType::GO_M8010_6, MotorMode::FOC);
     cmd.id   = 0;
     cmd.tau = 1.0;
     float delta = cmd.q - data.q;
@@ -31,7 +31,7 @@ int main() {
       cmd.kp = kp_des;
     }
     cmd.kd = 0.0;
-    cmd.dq = 0.0*queryGearRatio(MotorType::GO_M8010_6);
+    cmd.dq = 0.0*queryGearRatio(MotorType::GO_M8010_6); // should be like 6
     //cmd.tau  = 0.0;
     serial.sendRecv(&cmd,&data);
 
